@@ -34,27 +34,32 @@ E assim gerar um boleto para pagamento do item escolhido na loja.
 
 
 # Tecnologias utilizadas
--     "body-parser": "^1.19.0",
+- [node] https://nodejs.org/en/download/
+- [express]
+- Mysql
 
 ## Back end
-- Javascript
+- Javascript (nodejs)
+- Express
 
 ## Front end
--	HTML / JavaScript
+-	HTML / Css / JavaScript
+
 # Integrações
 -	Pagamentos
 
-"gn-api-sdk-node": "^2.0.8"
+gn-api-sdk-node": 2.0.8
 
-
-# Implantação e produção
--	Banco de dados Mysql
 
 # Como executar o projeto
 
-## Back end
+- Instalar as dependencias do nodejs e express.
+- Abra seu terminal e digite npm start para iniciar aplicação.
+- Página para cadastro de produtos: http://localhost:5000/cadastro , nesta página o administrador poderá cadastrar , editar ou mesmo deletar produtos de sua loja.
+- Página de listagem (loja) de produtos: http://localhost:5000/lojaprodutos/ , nesta página o cliente poderá visualizar todos produtos cadastrados na loja e assim compra - los.
+- Pagina de comprar e gerar boleto: http://localhost:5000/gerarboleto/:id , nesta página o cliente irá colocar seu dados sendo: Nome, CPF e telefone e assim gerar o boleto para efetivar a compra.
 
-## Front end
+
 
 
 ## Autor
