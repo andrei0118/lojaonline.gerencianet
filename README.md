@@ -34,6 +34,8 @@ E assim gerar um boleto para pagamento do item escolhido na loja.
 
 
 # Tecnologias utilizadas
+-     "body-parser": "^1.19.0",
+
 ## Back end
 - Javascript
 
