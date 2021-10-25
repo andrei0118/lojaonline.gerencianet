@@ -58,15 +58,3 @@ E assim gerar um boleto para pagamento do item escolhido na loja.
 ## Autor
 Andrei Camilo dos Santos
 https://www.linkedin.com/in/andrei0118-santos
-
-
-  "body-parser": "^1.19.0",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.4",
-    "gn-api-sdk-node": "^2.0.8",
-    "moment": "^2.29.1",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.13"
