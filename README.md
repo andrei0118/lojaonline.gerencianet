@@ -9,7 +9,6 @@ GN-VENDAS é uma aplicação full stack web e construída durante o processo de 
 ##  Layouts  
 ![image](https://user-images.githubusercontent.com/75299828/138769853-93ec4746-5bdb-4d9c-914c-c09423c1aed4.png)
 ![image](https://user-images.githubusercontent.com/75299828/138769907-a2f76847-1ef7-4675-9529-0452a7fa23f7.png)
-
 # Tecnologias utilizadas
 ### Back end
 •	Javascript
@@ -26,7 +25,7 @@ GN-VENDAS é uma aplicação full stack web e construída durante o processo de 
 
 ## Autor
 Andrei Camilo dos Santos
-https://www.linkedin.com/in/andrei0118-santos/
+https://www.linkedin.com/in/andrei0118-santos
 
 
 
