@@ -1,0 +1,30 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/cadastro">Cadastro de produtos</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Loja</li>
+    </ol>
+</nav>
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome do Produto</th>
+            <th scope="col">Preço</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#each rows}}
+        <tr>
+            <th scope="col">{{this.id}}</th>
+            <td>{{this.produtos_loja}}</td>
+            <td>{{this.valor}}</td>
+            <td class="text-end">
+                <a href="/gerarboleto/{{this.id}}" type="button" class="btn btn-success"></i>Comprar</a>
+                {{/each}}
+
+            </td>
+        </tr>
+
+    </tbody>

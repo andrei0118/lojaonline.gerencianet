@@ -1,0 +1,19 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/lojaprodutos">Loja</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Comprar</li>
+  </ol>
+</nav>
+
+<table>
+  <form <div class="row">
+    <div class="col-6">
+      <h3> Cadastro para gerar o boleto de pagamento!</h3>
+    </div>
+
+
+    {{#each rows}}
+    <form class="row g-3 needs-validation" method="POST" action="/gerarboleto/{{this.id}}" novalidate>
+      {{>client-form}}
+    </form>
+    {{/each}}

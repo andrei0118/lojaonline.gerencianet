@@ -1,0 +1,61 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/lojaprodutos">Loja</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Comprar</li>
+    </ol>
+</nav>
+
+{{#each rows}}
+<div class="col-6">
+    <div class="form-floating mb-3">
+        <div>{{this.produtos_loja}}</div>
+        {{!-- <label for="floatingInput">Produto</label> --}}
+    </div>
+</div>
+
+<div class="col-6">
+    <div class="form-floating mb-3">
+        <div>{{this.valor}}</div>
+        {{!-- <input type="text" class="form-control" id="floatingInput" value="{{this.valor}}" name="Valor"
+            disabled="disabled"> --}}
+        {{!-- <label for="floatingInput">Valor</label> --}}
+    </div>
+</div>
+
+<table>
+    <form action='/gerarboleto/{{this.id}}' method="POST">
+        <div class="row">
+            <div class="col-6">
+                <h3> Cadastro para gerar o boleto de pagamento!</h3>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nome Completo" name="nome">
+                <label for="floatingInput">Nome</label>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="CPF (números)" name="cpf">
+                <label for="floatingInput">CPF</label>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Telefone DDD + numero"
+                    name="telefone">
+                <label for="floatingInput">Telefone</label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button href="/gerarboleto/{{this.id}}" class="btn btn-success" type="submit">Gerar Boleto</button>
+        </div>
+    </form>
+</table>
+{{/each}}
+
+
