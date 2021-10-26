@@ -49,12 +49,14 @@ E assim gerar um boleto para pagamento do item escolhido na loja.
 # Integrações
 -	Pagamentos
 
-gn-api-sdk-node": 2.0.8
+gn-api-sdk-node: 2.0.8
 
 
 # Como executar o projeto
 
 - Instalar as dependencias do nodejs e express.
+- Instalar o simulador de servidor Xampp.
+- Foi utilizado o banco de dados Mysql, sendo mysqladmin: (Usuário= "root") (senha " ").
 - Abra seu terminal e digite npm start para iniciar aplicação.
 - Página para cadastro de produtos: http://localhost:5000/cadastro , nesta página o administrador poderá cadastrar , editar ou mesmo deletar produtos de sua loja.
 - Página de listagem (loja) de produtos: http://localhost:5000/lojaprodutos/ , nesta página o cliente poderá visualizar todos produtos cadastrados na loja e assim compra - los.
