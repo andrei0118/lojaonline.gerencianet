@@ -4,7 +4,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/andrei0118/gn-vendas/blob/master/LICENSE)
 
 ## Sobre o projeto
-GN-VENDAS é uma aplicação full stack web e construída durante o processo de seleção da empresa GERENCIANET. A aplicação consiste em um sistema de vendas online, onde  o administrador poderá  cadastrar  produtos de uma loja,  e seu cliente final poderá comprar e gerar o boleto de pagamento  do item desejado.
+GN-VENDAS é uma api.rest construída durante o processo de seleção da empresa GERENCIANET. A aplicação consiste em um sistema de vendas online, onde  o administrador poderá  cadastrar  produtos de uma loja,  e seu cliente final poderá comprar e gerar o boleto de pagamento  do item desejado.
 É possível dividir o projeto em 3 partes:
 
 ## Administrador
